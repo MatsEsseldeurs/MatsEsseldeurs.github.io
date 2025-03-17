@@ -58,13 +58,13 @@ permalink: /cv/
 
 <table style="width:100%">
   <tr> 
-    <td class="p-1 pr-2 font-weight-bold" style="width:15%"><b>2017-2020</b></td>
+    <td class="p-1 pr-2 font-weight-bold" style="width:15%"><b>2017 - 2020</b></td>
     <td class="p-1 pl-2 font-weight-light text" style="width:40%">Bachelor in Physics </td>
     <td class="p-1 pl-2 font-weight-light text">KU Leuven </td>
     <td class="p-1 pl-2 font-weight-light text">Magna Cum Laude </td>
   </tr> 
   <tr> 
-    <td class="p-1 pr-2 font-weight-bold"><b>2020-2022</b></td>
+    <td class="p-1 pr-2 font-weight-bold"><b>2020 - 2022</b></td>
     <td class="p-1 pl-2 font-weight-light text">Masters in Astronomy & Astrophysics </td>
     <td class="p-1 pl-2 font-weight-light text">KU Leuven </td>
     <td class="p-1 pl-2 font-weight-light text">Summa Cum Laude </td>
@@ -75,7 +75,7 @@ permalink: /cv/
     <td class="p-1 pl-2 font-weight-light text">Uppsala University</td>
   </tr> 
   <tr> 
-    <td class="p-1 pr-2 font-weight-bold"><b>2022-now</b></td>
+    <td class="p-1 pr-2 font-weight-bold"><b>2022 - now</b></td>
     <td class="p-1 pl-2 font-weight-light text">PhD in Astronomy & Astrophysics </td>
     <td class="p-1 pl-2 font-weight-light text">KU Leuven </td>
   </tr> 
@@ -138,10 +138,10 @@ permalink: /cv/
 * Thesis mentor of Mike Feys (2022-2023; Master A&A)
 
 ###### Teaching Assistant
-* Biophysics (fall, 2022-now)
+* Biophysics (fall, 2022 - now)
 * General Physics I (fall, 2021)
 * General Physics with Elements of Mathematics I (fall, 2020)
 
 ###### Tutor
-* Physics & mathematics (2018-22)
+* Physics & mathematics (2018-2022)
 </div></div>
