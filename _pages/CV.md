@@ -138,7 +138,7 @@ permalink: /cv/
 * Thesis mentor of Mike Feys (2022-2023; Master A&A)
 
 ###### Teaching Assistant
-* Biophysics (fall, 2022, 2023)
+* Biophysics (fall, 2022-now)
 * General Physics I (fall, 2021)
 * General Physics with Elements of Mathematics I (fall, 2020)
 
