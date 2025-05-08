@@ -12,13 +12,17 @@ permalink: /talks/
 
 
 <div class="jumbotron">
+
+### Seminars
+{% bibliography -f conferences -q @seminar %}
+
 ### Invited talks
-{% bibliography -f conferences --query @conferencepres -q @*[invited=True] %}
+{% bibliography -f conferences -q @conferencepres[invited=True] %}
 
 ### Contributed talks
-{% bibliography -f conferences --query @conferencepres -q @*[invited!=True && poster_pres!=True] %}
+{% bibliography -f conferences -q @conferencepres[invited!=True && poster_pres!=True] %}
 
 ### Posters
-{% bibliography -f conferences --query @conferencepres -q @*[poster_pres=True]%}
+{% bibliography -f conferences -q @conferencepres[poster_pres=True]%}
 </div>
 

@@ -51,6 +51,6 @@ In order to investigate the orbital evolution of companions around AGB stars, bo
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="text-align:justify">
-{% bibliography -f conferences -q @*[publisher=Complex Planetary Systems II – Kavli-IAU Symposium 382]%}
+{% bibliography -f conferences -q @conferencepres[publisher=Complex Planetary Systems II – Kavli-IAU Symposium 382]%}
 </div>
 </div>
