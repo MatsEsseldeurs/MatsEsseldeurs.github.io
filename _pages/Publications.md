@@ -8,10 +8,15 @@ years: [2022]
 
 <div class="jumbotron">
 
-### Peer reviewed publications
-{% bibliography -f articles -q @*[selected!=True] %}
+### First author publications
+{% bibliography -f articles -q @*[firstauthor=True && selected!=True] %}
 
 ### Thesis
 {% bibliography -f thesis --query @thesis %}
+
+### Co-author publications
+{% bibliography -f articles -q @*[firstauthor!=True && selected!=True] %}
+
+
 
 </div>
