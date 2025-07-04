@@ -73,12 +73,32 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <a href="https://github.com/orlox/SideKicks.jl" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
 
 <b>Author:</b>
-<i>Marchant, Pablo; Willox, Reinhold</i>&nbsp;&nbsp;&nbsp;&nbsp;
+<i>Marchant, Pablo; Willcox, Reinhold</i>&nbsp;&nbsp;&nbsp;&nbsp;
 <b>Contributors:</b>
 <i>Esseldeurs, Mats; et al.</i>
 
 <div style="text-align:justify">
-<a href="https://juliahub.com/ui/Packages/SideKicks/OZCI1/0.2.0">SideKicks</a> (Statistical Inference to DEtermine KICKS on compact objects) is a Julia package which provides tools to perform MCMC sampling of a system composed of a star and a compact object in order to determine kicks received on the compact object at birth. This tool allows to statistically determin the initial pre-SN binary properties from observed post-SN binary properties. 
+<a href="https://juliahub.com/ui/Packages/SideKicks/OZCI1/0.2.0">SideKicks</a> (<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250416669W/abstract">Willcox et al. 2025</a>; Statistical Inference to DEtermine KICKS on compact objects) is a Julia package which provides tools to perform MCMC sampling of a system composed of a star and a compact object in order to determine kicks received on the compact object at birth. This tool allows to statistically determin the initial pre-SN binary properties from observed post-SN binary properties. 
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12" style="margin-top:-20px">
+<img src="{{site.url}}{{site.baseurl}}/images/Software/spiroid.png" style="width:140px; min-width:14%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:10px;" align="right"/>
+<h4>spiroid
+<a href="https://github.com/DynaClim/spiroid" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
+
+<b>Author:</b>
+<i>Tim, Kallioinen</i>&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Contributors:</b>
+<i>Esseldeurs, Mats; et al.</i>
+
+<div style="text-align:justify">
+<a href="https://github.com/DynaClim/spiroid">spiroid</a> (Star Planet Interaction Rotational and Orbital Integrator for Dynamics) is a fast numerical simulator written in Rust that models the evolution of a planet around a star. It is designed to simulate the orbital evolution of a planet around a star, taking into account tidal interactions, magnetic interactions, and stellar wind interactions. The code is designed to be fast and efficient, making it suitable for population studies of the orbital evolution of planetary systems.
 </div>
 </div>
 </div>
