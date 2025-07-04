@@ -18,11 +18,17 @@ permalink: /cv/
     margin-top:10px;
   }
 
-  /* Change the alignment of the figure for screens wider than 800px */
-  @media (min-width: 768px) {
+  /* Change the alignment of the figure for screens wider than 800px and for print */
+  @media (min-width: 768px), print {
     .figure {
-      float: right; /* Align the figure to the right */
-      margin-top:0px;
+      float: right !important;
+      display: block !important;
+      margin-left: 20px !important;
+      margin-right: 0px !important;
+      margin-top: 0px !important;
+      margin-bottom: -10px !important;
+      width: 238px !important;
+      max-width: 100% !important;
     }
   }
 </style>
