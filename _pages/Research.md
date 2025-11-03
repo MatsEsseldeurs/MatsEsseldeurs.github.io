@@ -27,17 +27,31 @@ Overall, my research highlights the critical role of the radiation force in dust
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="text-align:justify">
-<h4>Planetary systems around evolved stars</h4>
-<img src="{{site.url}}{{site.baseurl}}/images/Research/Planet_v2.jpg" style="width:380px; min-width:34%; max-width:100%; margin-left:0px; margin-right:20px; margin-bottom:0px; margin-top:5px;" align="left"/>
+<h4>Tidal Dissipation in Evolved Stars</h4>
+<img src="{{site.url}}{{site.baseurl}}/images/Research/tidal_dissipation.png" style="width:380px; min-width:34%; max-width:100%; margin-left:0px; margin-right:20px; margin-bottom:0px; margin-top:5px;" align="left"/>
 
-Studying the same AGB stars, I also investigate any planets or companions orbiting around them. Their significant mass-loss and changes in their physical characteristics can have a significant impact on any companions orbiting around them. To fully understand the evolution of planetary systems, we need to study the AGB phase and the role that companions play in this process.
+Building on our understanding of AGB stellar winds, we turn to the crucial process of tidal dissipation in evolved stars. As these stars expand and develop deep convective envelopes, their interactions with orbiting companions become dominated by tidal forces. These tides can transfer angular momentum, leading to dramatic changes in the orbits of planets and binary companions.
 
-Most AGB stars have at least one companion, and the sudden changes in the star's characteristics throughout the AGB phase can completely transform the planetary or binary system. To understand whether the companion survives this phase and explain the presence of planets orbiting around White Dwarfs, we need to study their orbital evolution. This involves taking into account the stellar mass-loss rate, mass accretion efficiency onto the companion, and tidal interactions between the star and its companion.
+To accurately capture these effects, we employ ab-initio modelling of tidal dissipation, directly linking the internal structure and evolution of the star to the efficiency of tidal energy loss. By moving beyond simplified prescriptions and instead using detailed stellar models, we can quantify how convection, oscillations, and the changing stellar envelope shape the tidal response.
 
-Previous research has only addressed these processes by using simple models that are now considered outdated. Our research focuses on improving this treatment by calculating the tidal dissipation ab-initio from stellar structure and evolution calculations, and by using complex 3D hydrodynamic simulations that account for all components of the wind launching mechanism and the gravitational perturbation of the companion. This enables us to accurately model the mass-loss rates, mass accretion efficiency, and morphological structure of the AGB surroundings created by the companion.
-
-Our research will help build coherent models of planetary systems orbiting evolved AGB stars, shedding light on the fate of planetary systems and their companions as stars evolve.
+This physically motivated approach allows us to accurately predict how tidal interactions influence the fate of companions: whether they spiral in and are engulfed, or survive as the star evolves. Our ab-initio tidal dissipation models thus provide the essential bridge between the physical processes in evolved stars and the orbital evolution of their planetary systems, setting the stage for understanding the diverse outcomes observed in post-AGB systems.
 
 {% bibliography -f articles -q @*[tides=True]  %}
+</div>
+</div>
+
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12" style="text-align:justify">
+<h4>Orbital evolution of companions to AGB stars</h4>
+<img src="{{site.url}}{{site.baseurl}}/images/Research/OrbitalEvolution.png" style="width:380px; min-width:34%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:5px;" align="right"/>
+
+In addition to simulating the winds of AGB stars and modelling their internal tidal dissipation, I investigate how these processes together shape the orbits of planets and companions. The significant mass-loss and structural changes during the AGB phase, combined with strong tidal forces, can dramatically alter the fate of any objects in orbit. Whether a companion survives, spirals inward and is engulfed, or escapes to a wider orbit depends on the delicate balance between tidal dissipation, mass-loss, and accretion processes.
+
+Our research advances the field by combining ab-initio tidal dissipation calculations with detailed 3D hydrodynamic simulations of the wind and the gravitational influence of companions. This comprehensive approach allows us to accurately model not only the mass-loss rates and accretion efficiency, but also the evolving tidal forces that govern orbital evolution.
+
+By integrating these effects, we can build coherent models of planetary systems around evolved AGB stars, providing new insights into the survival of planets, the formation of close binaries, and the diversity of systems observed around white dwarfs and post-AGB stars.
+
+<!-- {% bibliography -f articles -q @*[tides=True]  %} -->
 </div>
 </div>

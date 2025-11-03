@@ -23,17 +23,19 @@ permalink: /
 
 <div style="text-align:justify">
 ### Welcome to my personal website!
-I'm Mats Esseldeurs, a PhD student at [KU Leuven](https://www.kuleuven.be/kuleuven/)'s [Institute of Astronomy](https://fys.kuleuven.be/ster), in the team of [Prof. Dr. Leen Decin](https://fys.kuleuven.be/ster/staff/senior-staff/leen-decin). My research lies at the intersection of math, physics, and computer science, where I explore some of the most complex phenomena in the universe.
 
-My earlier research project involves developing efficient techniques for <b>approximating radiative transfer</b> in simulations of <b>3D fluid dynamics</b>. This is an exciting area of research because it has the potential to improve our understanding of a wide range of astrophysical processes, where I focus on the cool outflows of AGB stars. My collaborators on this project include [Dr. Frederik De Ceuster](https://freddeceuster.github.io/) at [KU Leuven](https://www.kuleuven.be/kuleuven/) and [Dr. Lionel Siess](http://www.astro.ulb.ac.be/~siess/) at [ULB](https://www.ulb.be/en/ulb-homepage).
+I'm Mats Esseldeurs, a PhD student at [KU Leuven](https://www.kuleuven.be/kuleuven/)'s [Institute of Astronomy](https://fys.kuleuven.be/ster), in the team of [Prof. Dr. Leen Decin](https://fys.kuleuven.be/ster/staff/senior-staff/leen-decin). My research interests lie at the intersection of math, physics, and computer science, where I am fascinated by the complex phenomena that shape our universe.
 
-I'm also exploring the semi-analytical modeling of <b>tidal dissipation in binary systems</b>. This project aims to unravel the complex orbital evolution throughout a star's lifetime, which has important implications for instance in the formation and evolution of planetary systems. My collaborator on this project is [Dr. Stéphane Mathis](http://sfmathis.free.fr/Home.html) at [CEA Paris-Seclay](https://www.cea.fr/paris-saclay/Pages/Accueil.aspx).
+Accademically, I am particularly interested in:
+* <b>Radiative transfer in 3D fluid dynamics</b> — exploring efficient ways to approximate radiative transfer in simulations, especially in the context of the cool outflows of AGB stars.
+* <b>Tidal dissipation in binary systems</b> — using semi-analytical modeling to understand how strong tidal forces drive the orbital evolution of stars and planets over time.
+* <b>Orbital evolution simulations</b> — investigating the dynamical evolution of binary and planetary systems through computational modeling, particularly focusing on the effects of tides and mass loss, bringing together my interests in fluid dynamics and tidal interactions.
 
-Apart from my research, I am also passionate about sharing my knowledge with others. I strongly believe that it is important for researchers to share their knowledge and expertise with others, both within and outside of academia. Throughout my academic journey, I have gained valuable experience as a tutor in mathematics and physics, a teaching assistant at KU Leuven, and a supervisor of a Master's students thesis.
+I am also passionate about science communication and education. I enjoy sharing knowledge, whether as a tutor in mathematics and physics, a teaching assistant at KU Leuven, or a supervisor of Master's theses.
 
-When I'm not working on my research, you can find me cycling in the beautiful Belgian countryside, listening to science fiction audiobooks, or watching nature documentaries. I also enjoy spending time with my friends and family, trying out new recipes in the kitchen, and enjoying the vibrant city Leuven.
+Outside of research, I love cycling in the Belgian countryside, listening to science fiction audiobooks, and watching nature documentaries. I also enjoy spending time with friends and family, experimenting with new recipes, and exploring the vibrant city of Leuven.
 
-Thanks for visiting my website, and please don't hesitate to get in touch if you have any questions or comments!
+Thanks for visiting my website! Feel free to get in touch if you have any questions or comments.
 </div>
 
 
