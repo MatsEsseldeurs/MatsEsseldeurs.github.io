@@ -7,17 +7,14 @@
   orcid: https://orcid.org/0000-0002-4650-6029
   ads: https://ui.adsabs.harvard.edu/search/q=%20author%3A%22Esseldeurs%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
   scholar: https://scholar.google.com/citations?user=a03KyLoAAAAJ&hl=nl
-  # Change the number below to the number of "educations" you have (up to 6)
-  number_educ: 2
-  education1: "(2022) MS Astronomy & Astrophysics, KU Leuven"
-  education2: "(2020) BS Physics, KU Leuven"
-  # education3: 
-  # education4: 
-  # education5: 
-  # education6: 
-  education1short: "(2022) MS Astronomy & Astrophysics, KU Leuven"
-  education2short: "(2020) BS Physics, KU Leuven"
-  # education3short: 
-  # education4short: 
-  # education5short: 
-  # education6short: 
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+      "(2022) MS Astronomy & Astrophysics, KU Leuven",
+      "(2020) BS Physics, KU Leuven",
+    ]
+
+  educationshort:
+    [ "(2022) MS Astronomy & Astrophysics, KU Leuven",
+      "(2020) BS Physics, KU Leuven"
+    ]

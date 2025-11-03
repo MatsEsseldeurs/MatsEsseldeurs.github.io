@@ -6,12 +6,7 @@ import getMainAxisFromPlacement from "../utils/getMainAxisFromPlacement.js";
 import { within } from "../utils/within.js";
 import mergePaddingObject from "../utils/mergePaddingObject.js";
 import expandToHashMap from "../utils/expandToHashMap.js";
-<<<<<<< HEAD
-import { left, right, basePlacements, top, bottom } from "../enums.js";
-import { isHTMLElement } from "../dom-utils/instanceOf.js"; // eslint-disable-next-line import/no-unused-modules
-=======
 import { left, right, basePlacements, top, bottom } from "../enums.js"; // eslint-disable-next-line import/no-unused-modules
->>>>>>> aab37331fb0165732a090c39d9014be5ff622e71
 
 var toPaddingObject = function toPaddingObject(padding, state) {
   padding = typeof padding === 'function' ? padding(Object.assign({}, state.rects, {
@@ -76,21 +71,7 @@ function effect(_ref2) {
     }
   }
 
-<<<<<<< HEAD
-  if (false) {
-    if (!isHTMLElement(arrowElement)) {
-      console.error(['Popper: "arrow" element must be an HTMLElement (not an SVGElement).', 'To use an SVG arrow, wrap it in an HTMLElement that will be used as', 'the arrow.'].join(' '));
-    }
-  }
-
   if (!contains(state.elements.popper, arrowElement)) {
-    if (false) {
-      console.error(['Popper: "arrow" modifier\'s `element` must be a child of the popper', 'element.'].join(' '));
-    }
-
-=======
-  if (!contains(state.elements.popper, arrowElement)) {
->>>>>>> aab37331fb0165732a090c39d9014be5ff622e71
     return;
   }
 
