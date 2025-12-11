@@ -52,6 +52,6 @@ Our research advances the field by combining ab-initio tidal dissipation calcula
 
 By integrating these effects, we can build coherent models of planetary systems around evolved AGB stars, providing new insights into the survival of planets, the formation of close binaries, and the diversity of systems observed around white dwarfs and post-AGB stars.
 
-<!-- {% bibliography -f articles -q @*[tides=True]  %} -->
+{% bibliography -f articles -q @*[orbevol=True]  %}
 </div>
 </div>

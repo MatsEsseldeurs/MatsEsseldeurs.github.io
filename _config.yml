@@ -82,7 +82,7 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
 
-  bibtex_skip_fields: [abstract, month_numeric, file, link, status, slides, poster, poster_pres, invited, selected, addit, winds, tides, firstauthor]
+  bibtex_skip_fields: [abstract, month_numeric, file, link, status, slides, poster, poster_pres, invited, selected, addit, winds, tides, orbevol, firstauthor]
 
   query: "@*"
 
