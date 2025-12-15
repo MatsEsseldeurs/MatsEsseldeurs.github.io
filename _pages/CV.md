@@ -110,7 +110,11 @@ permalink: /cv/
 
 <table style="width:100%">
   <tr> 
-    <td class="p-1 pr-2 font-weight-bold" style="width:15%"><b>2023</b></td>
+    <td class="p-1 pr-2 font-weight-bold" style="width:15%"><b>2025</b></td>
+    <td class="p-1 pl-2 font-weight-light text">Best Poster Price at Why Galaxies care about AGB stars V: 3D winds in the cosmic matter cycle </td>
+  </tr> 
+  <tr> 
+    <td class="p-1 pr-2 font-weight-bold"><b>2023</b></td>
     <td class="p-1 pl-2 font-weight-light text">Erasmus+ mobility grant to the CEA Paris-Saclay (France) </td>
   </tr> 
   <tr> 
