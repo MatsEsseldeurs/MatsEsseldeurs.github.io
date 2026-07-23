@@ -35,7 +35,7 @@ permalink: /cv/
 
 
 <div class="jumbotron">
-<div class="col-md-12 col-sm-12" style="text-align:justify; margin-top:-20px">
+<div class="col-md-12 col-sm-12" style="text-align:justify; margin-top:-25px">
 <table>
   <tr>
     <figure>
@@ -59,7 +59,7 @@ permalink: /cv/
 </div></div>
 
 <div class="jumbotron">
-<div class="col-md-12 col-sm-12" style="margin-top:-5px">
+<div class="col-md-12 col-sm-12" style="margin-top:-25px">
 #### Education
 
 <table style="width:100%">
@@ -81,7 +81,7 @@ permalink: /cv/
     <td class="p-1 pl-2 font-weight-light text">Uppsala University</td>
   </tr> 
   <tr> 
-    <td class="p-1 pr-2 font-weight-bold"><b>2022 - now</b></td>
+    <td class="p-1 pr-2 font-weight-bold"><b>2022 - 2026</b></td>
     <td class="p-1 pl-2 font-weight-light text">PhD in Astronomy & Astrophysics </td>
     <td class="p-1 pl-2 font-weight-light text">KU Leuven </td>
   </tr> 
@@ -103,7 +103,7 @@ permalink: /cv/
 </div></div>
 
 <div class="jumbotron">
-<div class="col-md-12 col-sm-12" style="margin-top:-5px">
+<div class="col-md-12 col-sm-12" style="margin-top:-25px">
 
 #### Grants and Awards
 
@@ -134,13 +134,13 @@ permalink: /cv/
 </div></div>
 
 <div class="jumbotron">
-<div class="col-md-12 col-sm-12" style="margin-top:-5px">
+<div class="col-md-12 col-sm-12" style="margin-top:-25px">
 #### Selected Publication
 {% bibliography -f articles -q @*[selected=True] %}
 </div></div>
 
 <div class="jumbotron">
-<div class="col-md-12 col-sm-12" style="text-align:justify; margin-top:-5px">
+<div class="col-md-12 col-sm-12" style="text-align:justify; margin-top:-25px">
 
 #### Teaching
 ###### Thesis Supervision
@@ -148,7 +148,7 @@ permalink: /cv/
 * Thesis mentor of Mike Feys (2022-2023; Master A&A)
 
 ###### Teaching Assistant
-* Biophysics (fall, 2022 - now)
+* Biophysics (fall, 2022 - 2026)
 * General Physics I (fall, 2021)
 * General Physics with Elements of Mathematics I (fall, 2020)
 
