@@ -24,7 +24,7 @@ permalink: /
 <div style="text-align:justify">
 ### Welcome to my personal website!
 
-I'm Mats Esseldeurs, a PhD student at [KU Leuven](https://www.kuleuven.be/kuleuven/)'s [Institute of Astronomy](https://fys.kuleuven.be/ster), in the team of [Prof. Dr. Leen Decin](https://fys.kuleuven.be/ster/staff/senior-staff/leen-decin). My research interests lie at the intersection of math, physics, and computer science, where I am fascinated by the complex phenomena that shape our universe.
+I'm Mats Esseldeurs, a PhD graduate at [KU Leuven](https://www.kuleuven.be/kuleuven/)'s [Institute of Astronomy](https://fys.kuleuven.be/ster), in the team of [Prof. Dr. Leen Decin](https://fys.kuleuven.be/ster/staff/senior-staff/leen-decin). My research interests lie at the intersection of math, physics, and computer science, where I am fascinated by the complex phenomena that shape our universe.
 
 Accademically, I am particularly interested in:
 * <b>Radiative transfer in 3D fluid dynamics</b> — exploring efficient ways to approximate radiative transfer in simulations, especially in the context of the cool outflows of AGB stars.

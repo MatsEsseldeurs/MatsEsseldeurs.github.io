@@ -7,51 +7,60 @@ permalink: /research/
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="text-align:justify">
-<h4>3D simulations of AGB stellar winds</h4>
-<img src="{{site.url}}{{site.baseurl}}/images/Research/2Dplotrho_orbital2.png" style="width:400px; min-width:39%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:0px;" align="right"/>
+<h4>The fate of Earth during the Sun’s giant phases</h4>
+<img src="{{site.url}}{{site.baseurl}}/images/Research/Earth1.png" style="width:600px; min-width:34%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:5px;" align="right"/>
 
-In my research, I focus on understanding the behavior of stars during the Asymptotic Giant Branch (AGB) phase, which is a crucial stage in their evolution. During this phase, stars with an initial mass below approximately 8 solar masses develop a strong stellar wind due to radiation pressure on newly formed dust grains.
+What will happen to the Earth when the Sun reaches the end of its life? In about five billion years, the Sun will leave the main sequence and expand into a red giant before eventually becoming a white dwarf. Whether the Earth survives these giant phases depends on the competition between two physical processes. As the Sun loses mass, the Earth's orbit expands. At the same time, tidal interactions transfer orbital energy and angular momentum, causing the Earth's orbit to shrink. Accurately modelling both effects is essential to predicting the long-term fate of our planet.
 
-Recent observations have shown that AGB outflows display significant morphological complexities, which are most likely caused by the interaction with a companion. In order to better understand and describe these morphologies, I have developed 3D simulations of AGB stellar winds.
+In this work, I combined stellar evolution models with a new, physically motivated description of tidal dissipation and updated prescriptions for stellar mass loss. Earlier studies generally concluded that the Earth would be engulfed during the Sun's red giant evolution. Our results show that the outcome is more nuanced: with the revised tidal model and observationally motivated mass-loss rates, the Earth is likely to narrowly escape engulfment. While the planet would survive dynamically, it would have become completely uninhabitable long before, having lost its oceans and atmosphere as the Sun's luminosity steadily increased.
 
-My simulation takes into account both the radiation force in dust-driven winds and the impact of a companion on the AGB wind morphology. To achieve this, I have implemented a ray-tracer for radiative transfer in the smoothed particle hydrodynamics (SPH) code Phantom. This method allows for the creation of a 3D map of the optical depth around the AGB star.
+Beyond the fate of the Earth, this research provides new insights into the orbital evolution of planets around evolved stars. By improving our understanding of tidal interactions and stellar mass loss, these models help interpret observations of planetary systems around red giants and white dwarfs, and contribute to a broader picture of how planetary systems evolve as their host stars age.
 
-I have compared the effects of four different prescriptions of radiative transfer, with different degrees of complexity, including the free-wind, the geometrical, the Lucy, and the attenuation prescription. By comparing the results to predictions from the 3D radiative transfer code Magritte, I have found that the Lucy prescription provides the most accurate results for most of the model, although it does not account for all effects.
-
-Overall, my research highlights the critical role of the radiation force in dust-driven AGB winds, impacting the velocity profile and morphological structures. These findings provide important insights into the behavior of stars during the AGB phase and contribute to our understanding of the evolution of stars.
-
-{% bibliography -f articles -q @*[winds=True]  %}
+{% bibliography -f articles -q @*[earth=True]  %}
 </div>
 </div>
-
-
-<div class="jumbotron">
-<div class="col-md-12 col-sm-12" style="text-align:justify">
-<h4>Tidal Dissipation in Evolved Stars</h4>
-<img src="{{site.url}}{{site.baseurl}}/images/Research/tidal_dissipation.png" style="width:380px; min-width:34%; max-width:100%; margin-left:0px; margin-right:20px; margin-bottom:0px; margin-top:5px;" align="left"/>
-
-Building on our understanding of AGB stellar winds, we turn to the crucial process of tidal dissipation in evolved stars. As these stars expand and develop deep convective envelopes, their interactions with orbiting companions become dominated by tidal forces. These tides can transfer angular momentum, leading to dramatic changes in the orbits of planets and binary companions.
-
-To accurately capture these effects, we employ ab-initio modelling of tidal dissipation, directly linking the internal structure and evolution of the star to the efficiency of tidal energy loss. By moving beyond simplified prescriptions and instead using detailed stellar models, we can quantify how convection, oscillations, and the changing stellar envelope shape the tidal response.
-
-This physically motivated approach allows us to accurately predict how tidal interactions influence the fate of companions: whether they spiral in and are engulfed, or survive as the star evolves. Our ab-initio tidal dissipation models thus provide the essential bridge between the physical processes in evolved stars and the orbital evolution of their planetary systems, setting the stage for understanding the diverse outcomes observed in post-AGB systems.
-
-{% bibliography -f articles -q @*[tides=True]  %}
-</div>
-</div>
-
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="text-align:justify">
 <h4>Orbital evolution of companions to AGB stars</h4>
 <img src="{{site.url}}{{site.baseurl}}/images/Research/OrbitalEvolution.png" style="width:380px; min-width:34%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:5px;" align="right"/>
 
-In addition to simulating the winds of AGB stars and modelling their internal tidal dissipation, I investigate how these processes together shape the orbits of planets and companions. The significant mass-loss and structural changes during the AGB phase, combined with strong tidal forces, can dramatically alter the fate of any objects in orbit. Whether a companion survives, spirals inward and is engulfed, or escapes to a wider orbit depends on the delicate balance between tidal dissipation, mass-loss, and accretion processes.
+Building on this framework, I apply these models to individual evolved systems to unravel their evolutionary history. One of the best examples is the nearby asymptotic giant branch (AGB) star π¹ Gruis, where high-resolution ALMA observations allowed us to directly measure the orbital motion of its close stellar companion. Combining these observations with models of stellar evolution and tidal interactions enabled us to reconstruct the system's orbital evolution and test long-standing theories of binary interactions.
 
-Our research advances the field by combining ab-initio tidal dissipation calculations with detailed 3D hydrodynamic simulations of the wind and the gravitational influence of companions. This comprehensive approach allows us to accurately model not only the mass-loss rates and accretion efficiency, but also the evolving tidal forces that govern orbital evolution.
+Our analysis revealed that the companion follows an almost perfectly circular orbit. This was an unexpected result, as current models predict that the orbit should still retain a significant eccentricity at this stage of the AGB evolution. The observed orbit therefore points to more efficient tidal circularisation than predicted by existing theories, providing an observational constraints on tidal interactions in evolved stars.
 
-By integrating these effects, we can build coherent models of planetary systems around evolved AGB stars, providing new insights into the survival of planets, the formation of close binaries, and the diversity of systems observed around white dwarfs and post-AGB stars.
+Understanding systems such as π¹ Gruis is essential for improving models of binary evolution. These systems serve as natural laboratories for testing how tidal dissipation, stellar mass loss, and mass transfer shape stellar orbits. By confronting theoretical models with detailed observations, we can better predict the future evolution of evolved binaries and the planetary systems that orbit them.
 
 {% bibliography -f articles -q @*[orbevol=True]  %}
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12" style="text-align:justify">
+<h4>Tidal Dissipation in Evolved Stars</h4>
+<img src="{{site.url}}{{site.baseurl}}/images/Research/tidal_dissipation.png" style="width:380px; min-width:34%; max-width:100%; margin-left:0px; margin-right:20px; margin-bottom:0px; margin-top:5px;" align="left"/>
+
+The studies presented above rely on a detailed understanding of one of the key processes governing orbital evolution: tidal dissipation. As stars evolve, their internal structure changes dramatically, altering how efficiently tidal forces dissipate energy and exchange angular momentum with orbiting companions. These interactions determine whether planets and binary companions migrate outward, spiral inward, or are eventually engulfed by their host star.
+
+To accurately model these effects, I developed ab-initio calculations of tidal dissipation that directly link the efficiency of tidal energy loss to the evolving internal structure of the star. Rather than relying on simplified prescriptions, this approach follows the tidal response throughout the entire evolution of low- and intermediate-mass stars, from the pre-main sequence to the white dwarf stage, providing a physically motivated description of tidal interactions across all evolutionary phases.
+
+This framework forms the foundation for my research on the orbital evolution of planetary systems and binary stars. By combining stellar evolution with first-principles tidal modelling, it enables more reliable predictions of how companions respond to the dramatic changes their host stars undergo, from the main sequence through the giant phases and into their final stages of evolution.
+
+{% bibliography -f articles -q @*[tides=True]  %}
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12" style="text-align:justify">
+<h4>3D simulations of AGB stellar winds</h4>
+<img src="{{site.url}}{{site.baseurl}}/images/Research/2Dplotrho_orbital2.png" style="width:400px; min-width:39%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:0px;" align="right"/>
+
+My research began with investigating the winds of asymptotic giant branch (AGB) stars, a late stage in the lives of Sun-like stars during which they lose a large fraction of their mass. These stellar winds play a crucial role in enriching the interstellar medium with gas and dust, providing the raw material for future generations of stars and planets. High-resolution observations have revealed that these outflows are rarely spherical, instead displaying intricate spirals, arcs, and disks that are thought to arise through interactions with orbiting companions.
+
+To better understand how these structures form, I developed three-dimensional hydrodynamical simulations of dust-driven AGB winds. By implementing a radiative transfer algorithm in the smoothed particle hydrodynamics (SPH) code Phantom, the simulations self-consistently account for how stellar radiation accelerates the wind and how the gravitational influence of a companion sculpts the outflow. I evaluated several radiative transfer prescriptions against detailed radiative transfer calculations, identifying an approach that accurately reproduces the wind dynamics while remaining computationally efficient.
+
+These simulations provide a physically motivated framework for interpreting the complex morphologies observed around evolved stars. They improve our understanding of how binary companions shape stellar winds and lay the foundation for my later work on tidal interactions and the orbital evolution of planetary systems and binary stars around evolved stars.
+
+{% bibliography -f articles -q @*[winds=True]  %}
 </div>
 </div>
